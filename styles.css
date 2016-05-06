@@ -1,8 +1,19 @@
 @import url("https://fonts.googleapis.com/css?family=Pacifico");
+@import url("https://fonts.googleapis.com/css?family=Dosis");
 
 body {
   background: #f57f7f;
   font-family: "Pacifico", sans-serif;
   font-size: 48px;
   text-align: center;
+
+}
+
+h2 {
+  font-family: "Dosis", sans-serif;
+  font-size: 22px;
+}
+
+h1 {
+  margin-bottom: 0;
 }
