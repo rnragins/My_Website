@@ -1,16 +1,16 @@
-@import url("https://fonts.googleapis.com/css?family=Pacifico");
-@import url("https://fonts.googleapis.com/css?family=Dosis");
+@import url("https://fonts.googleapis.com/css?family=Sail");
+@import url("https://fonts.googleapis.com/css?family=Six+Caps");
 
 body {
   background: #f57f7f;
-  font-family: "Pacifico", sans-serif;
+  font-family: "Sail", cursive;
   font-size: 48px;
   text-align: center;
 
 }
 
 h2 {
-  font-family: "Sail", sans-serif;
+  font-family: "Six Caps", sans-serif;
   font-size: 22px;
 }
 
