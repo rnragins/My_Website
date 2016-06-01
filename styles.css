@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Sail");
-@import url("https://fonts.googleapis.com/css?family=Six+Caps");
+@import url("https://fonts.googleapis.com/css?family=Dosis");
 
 body {
   background: #f57f7f;
@@ -10,8 +10,8 @@ body {
 }
 
 h2 {
-  font-family: "Six Caps", sans-serif;
-  font-size: 32px;
+  font-family: "Dosis", sans-serif;
+  font-size: 26px;
 }
 
 h1 {
