@@ -20,28 +20,6 @@ body, html {
     color: #777;
     line-height: 1.8;
 }
-<!-- Sidenav/menu -->
-<nav class="w3-sidenav w3-collapse w3-white w3-animate-left" style="z-index:3;width:300px;"><br>
-  <div class="w3-container">
-    <a href="#" onclick="w3_close()" class="w3-hide-large w3-right w3-jumbo w3-padding" title="close menu">
-      <i class="fa fa-remove"></i>
-    </a>
-    <img src="http://s33.postimg.org/qm306c1dr/IMG_5771.jpg" style="width:45%;" class="w3-round"><br>
-    <br>
-    <h4 class="w3-padding-0"><b>PORTFOLIO</b></h4>
-
-  </div>
-  <a href="#" class="w3-padding w3-text-teal">HOME</a>
-  <a href="#" class="w3-padding">ABOUT</a>
-  <a href="#" class="w3-padding">PORTFOLIO</a>
-  <a href="#" class="w3-padding">CONTACT</a>
-
-  <div class="w3-section w3-padding-top w3-large">
-    <a href="#" class="w3-hover-white w3-hover-text-light-blue w3-show-inline-block"><i class="fa fa-twitter"></i></a>
-    <a href="#" class="w3-hover-white w3-hover-text-indigo w3-show-inline-block"><i class="fa fa-linkedin"></i></a>
-  </div>
-</nav>
-
 /* Create a Parallax Effect */
 .bgimg-1, .bgimg-2, .bgimg-3 {
     opacity: 0.7;
@@ -85,15 +63,28 @@ body, html {
 </style>
 <body>
 
-<!-- Navbar (sit on top) -->
-<div class="w3-top">
-  <ul class="w3-navbar" id="myNavbar">
-    <li><a href="#" class="w3-padding-large">HOME</a></li>
-    <li class="w3-hide-small w3-right">
-      <a href="#" class="w3-padding-large w3-hover-red"><i class="fa fa-search"></i></a>
-    </li>
-  </ul>
-</div>
+  <!-- Sidenav/menu -->
+  <nav class="w3-sidenav w3-collapse w3-white w3-animate-left" style="z-index:3;width:300px;"><br>
+    <div class="w3-container">
+      <a href="#" onclick="w3_close()" class="w3-hide-large w3-right w3-jumbo w3-padding" title="close menu">
+        <i class="fa fa-remove"></i>
+      </a>
+      <img src="http://s33.postimg.org/qm306c1dr/IMG_5771.jpg" style="width:45%;" class="w3-round"><br>
+      <br>
+      <h4 class="w3-padding-0"><b>PORTFOLIO</b></h4>
+
+    </div>
+    <a href="#" class="w3-padding w3-text-teal">HOME</a>
+    <a href="#" class="w3-padding">ABOUT</a>
+    <a href="#" class="w3-padding">PORTFOLIO</a>
+    <a href="#" class="w3-padding">CONTACT</a>
+
+    <div class="w3-section w3-padding-top w3-large">
+      <a href="#" class="w3-hover-white w3-hover-text-light-blue w3-show-inline-block"><i class="fa fa-twitter"></i></a>
+      <a href="#" class="w3-hover-white w3-hover-text-indigo w3-show-inline-block"><i class="fa fa-linkedin"></i></a>
+    </div>
+  </nav>
+  
 
 <!-- First Parallax Image with Logo Text -->
 <div class="bgimg-1 w3-opacity w3-display-container">
